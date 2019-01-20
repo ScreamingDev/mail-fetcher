@@ -1,0 +1,89 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+html, body, div.rmp_up {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+div.rmp_up a {
+    text-decoration: none;
+}
+
+div.rmp_up > div.list {
+    height: 15%;
+    overflow-y: scroll;
+    background: #eee;
+}
+
+div.list > table {
+    width: 100%;
+}
+
+div.list > table > thead {
+    background: #ddd;
+}
+
+div.list > table tbody tr:hover a,
+div.list > table tbody tr.active a {
+    background: #1e73be;
+    color: #fff;
+}
+
+div.list > table tbody tr:hover td.delete a {
+    background: #D63838;
+}
+
+div.list > table a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding: 0.2em 0;
+}
+
+div.rmp_up > div.container {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+}
+
+div.rmp_up > div.container > div.header {
+    background: #ddd;
+    height: 10%;
+}
+
+div.rmp_up > div.container > div.body {
+    height: 80%;
+}
+
+div.rmp_up > div.container > div.attachments {
+    background: #ddd;
+    height: 10%;
+}
+
+div.rmp_up > div.container > iframe.part {
+    position: relative;
+    width: 100%;
+    height: 99%;
+}
+
+div.rmp_up div.attachments {
+    background: #1e73be;
+    color: #fff;
+    height: 5%;
+}
+
+div.rmp_up span.attachment a {
+    display: inline-block;
+    padding: 0.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+div.rmp_up span.attachment a:hover {
+    background: #fff;
+    color: #1e73be;
+}

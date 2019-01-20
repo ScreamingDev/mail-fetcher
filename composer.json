@@ -1,0 +1,14 @@
+{
+  "name": "screamingdev/mail-fetcher",
+  "license": "MIT",
+  "description": "Fetching and showing outgoing mails as simple as possible",
+  "require": {
+    "php": ">=7.0",
+    "php-mime-mail-parser/php-mime-mail-parser": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ScreamingDev\\MailReader\\": "lib/ScreamingDev/MailReader"
+    }
+  }
+}
